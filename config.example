@@ -1,0 +1,6 @@
+[database]
+user=root
+password=root
+server=vps2.dba-training.online
+port=3306
+database=online_data

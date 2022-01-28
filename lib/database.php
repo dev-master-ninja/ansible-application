@@ -14,7 +14,7 @@ class database {
                                          $ini["user"], 
                                          $ini["password"],
                                          $ini["database"])
-                                         or die("Cannot connect");
+                                         or die(mysqli_error());
     }
 
 }
